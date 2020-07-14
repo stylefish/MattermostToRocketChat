@@ -23,5 +23,5 @@ i just thought this might be a good starting point for someone
 
 # Resources
 
-https://docs.rocket.chat/guides/administrator-guides/import/csv
-https://docs.mattermost.com/administration/bulk-export.html
+- https://docs.rocket.chat/guides/administrator-guides/import/csv
+- https://docs.mattermost.com/administration/bulk-export.html
