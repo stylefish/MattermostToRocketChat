@@ -4,7 +4,7 @@ a simple, not really comprehensive, script to convert a Mattermost json export f
 i thought someone might be interested, so i shared it here. PRs welcome (would be great if the resulting zip import can be tested ;))
 code is rough and written in a couple of minutes to transfer messages of a hand full of channels, so probably not the solution you were looking for if you have lots of channels with lots of members :D
 
-currently its only tested on windows with PS Core, but it probably could work on linux/macOS if you install PS Core.
+currently its only tested on windows with PS Core, but it probably could work on linux/macOS if you install PS Core and change the path separators from `\` to `/`.
 
 # How to use
 1. Download [mmtorc.ps1](https://github.com/stylefish/MattermostToRocketChat/raw/master/mmtorc.ps1)
