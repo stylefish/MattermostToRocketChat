@@ -4,6 +4,13 @@ a simple, not really comprehensive, script to convert a Mattermost json export f
 i thought someone might be interested, so i shared it here. PRs welcome (would be great if the resulting zip import can be tested ;))
 code is rough and written in a couple of minutes to transfer messages of a hand full of channels, so probably not the solution you were looking for if you have lots of channels with lots of members :D
 
+currently its only tested on windows with PS Core, but it probably could work on linux/macOS if you install PS Core.
+
+# How to use
+1. Download [mmtorc.ps1](https://github.com/stylefish/MattermostToRocketChat/raw/master/mmtorc.ps1)
+2. update the variables at the top of the script to match you preferences
+3. execute `mmtorc.ps1`
+
 # What it can do currently
 - Import channels (with blacklist)
 - Import messages of channels
@@ -22,6 +29,5 @@ i'm not resposible for any missing messages or failures/overwrites during import
 i just thought this might be a good starting point for someone
 
 # Resources
-
 - https://docs.rocket.chat/guides/administrator-guides/import/csv
 - https://docs.mattermost.com/administration/bulk-export.html
