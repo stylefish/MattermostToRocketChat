@@ -1,4 +1,4 @@
-# MattermostToRocketChat
+# MattermostToRocketChat: Migrate channels/rooms and messages from Mattermost to Rocket.Chat
 a simple, not really comprehensive, script to convert a Mattermost json export file to a Rocket.Chat csv import zip file
 
 i thought someone might be interested, so i shared it here. PRs welcome (would be great if the resulting zip import can be tested ;))
